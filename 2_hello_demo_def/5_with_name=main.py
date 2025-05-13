@@ -1,9 +1,8 @@
-def hello(to):
-    print("hello,", to)
+def greet():
+    print(f"Welcome{name}, Are you ready?")
 
-def main():
-    name = input("What's your name? ")
-    hello(name)
+player1 : input("Whats the first player name: ")
+player2 : input("Whats the second player name: ")
 
-if __name__ == "__main__":
-    main()
+greet(player1)
+greet(player2)
